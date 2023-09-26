@@ -1,0 +1,468 @@
+body{
+
+    overflow-x: hidden;
+
+}
+
+*{
+
+  font-family: var(--albargasy-font);
+
+}
+
+body#tinymce p {
+
+    text-align: right !important;
+
+}
+input{
+	margin-top:0!important;
+	margin-bottom:0!important;
+    text-align: right;
+    direction: rtl!important;
+}
+input[type=color]{
+	width:50px;
+	height:50px;
+}
+.js .tmce-active .wp-editor-area{
+	color:#000!important;
+}
+a{color:var(--secondaryColor);}
+
+.inline-block{
+
+    display: inline-block;
+
+}
+
+.nav-tabs li a {
+
+    font-weight: 600;
+
+}
+
+.nav-tabs>li.active>a:focus, 
+
+.nav-tabs>li.active>a:hover{
+
+    color:#fff;
+
+    background-color: var(--secondaryColor);
+
+    border:none;
+
+}
+
+.bg-thm-color{
+	background:var(--primaryColor);
+}
+
+.bg-thm-second-color{
+	background:var(--secondaryColor);
+}
+
+.nav-tabs>li>a:hover,
+
+.nav-tabs>li.active>a{
+
+    color:#fff;
+
+    background-color: #6a6a6b;
+
+    border:none;    
+
+
+
+}
+
+.nav-tabs>li{margin-bottom: -2px;}
+
+.nav-tabs{border-bottom: 1px solid var(--secondaryColor);}
+
+.container{width:100%;}
+
+.site-title{
+
+    color: #fff;
+
+    padding:10px 0px;
+
+}
+
+.padding-right-4{
+
+    padding-left: 2rem !important;
+
+}
+
+.site_save_route {
+
+    background: var(--primaryColor);
+
+    color: #fff;
+
+}
+.site_save_route:focus{
+    box-shadow: none;
+    outline: none;
+}
+.site_save_route:hover{
+
+    background-color: #fff;
+
+    color: var(--primaryColor);
+
+}
+
+.wp-core-ui select{
+
+    width: 100%;
+
+    max-width: 100%!important;
+
+}
+
+hr{
+
+    margin-bottom: 35px;
+
+    border-top: 5px solid #318dde;
+
+    border-style: double;
+
+}
+
+h3.site_title{
+
+    text-decoration: underline;
+
+    color: #ffffff;
+
+    margin-bottom: 35px;
+
+    display: block;
+
+    clear: both;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    background: #164688;
+
+    padding:17px;
+
+}
+
+.site_half{
+
+    width: calc(100% - 106px);
+
+}
+
+#v-pills-tab{
+
+   background: var(--secondaryColor);
+
+    padding:20px;
+
+    height: 100%;
+
+}
+
+
+.nav-pills .nav-link {
+
+    background-color: var(--primaryColor);
+
+    color: #fff!important;
+
+    border-radius:5px;
+
+    margin-bottom: 10px;
+
+}
+
+.nav-pills .nav-link.active,
+
+.nav-pills .nav-link:hover{
+
+    color:var(--primaryColor)!important;
+
+    background-color: #fff;
+
+    border:none;  
+
+}
+
+.wp-person a:focus .gravatar, a:focus, a:focus .media-icon img {
+
+    box-shadow: 0 0 0 1px var(--thirdColor),0 0 2px 1px rgba(79,148,212,.8) !important;
+
+    outline: 1px solid transparent !important;
+
+}
+
+
+
+.fleft{
+
+    float: right;
+
+}
+
+.fright{
+
+    float: left;
+
+}
+
+.bg-col12{
+
+    background-color: #030304;
+
+    padding-top: 20px!important;
+
+    text-align: right;
+
+    margin-right: -15px;
+
+    margin-bottom: 20px;
+
+}
+
+.bg-gray{
+
+    background: var(--secondaryColor);
+
+}
+
+.gray_back{
+
+    margin-right: -15px;
+
+}
+
+.form_back{
+
+    background: var(--secondaryColor);
+
+    padding-top: 20px!important;
+
+    text-align: right;
+
+    margin-right:15px;
+
+}
+
+
+
+.form_back.no-margin-left{
+
+    background: var(--secondaryColor);
+
+    padding-top: 20px!important;
+
+    text-align: right;
+
+    margin-right:0;
+
+}
+
+.gray_back_ar{
+
+    margin-left: -16px;
+
+}
+
+.form_back_ar{
+
+    background: var(--primaryColor);
+
+    padding-top: 20px!important;
+
+    text-align: right;
+
+    margin-left:15px;
+
+}
+
+.form_back_ar.no-margin-right{
+
+    background: var(--primaryColor);
+
+    padding-top: 20px!important;
+
+    text-align: right;
+
+    margin-left:0;
+
+}
+
+.mr-3 {
+
+    margin-left: 0.5rem;
+
+}
+
+.form_back_ar p,
+
+.form_back_ar .form-control,
+
+.form_back_ar input[type=text],
+
+.form_back_ar input[type=number],
+
+.form_back_ar input[type=file]{
+
+    text-align:left !important;
+
+    direction:ltr;
+
+}
+
+.gray_color{
+
+    background: var(--primaryColor);
+
+    padding-top: 20px!important;
+
+    text-align: right;
+
+}
+
+#v-pills-tabContent{
+
+    clear: both;
+
+    overflow: hidden;
+
+}
+
+.tab-pane img{max-width: 250px;}
+
+#adminmenu .wp-menu-image img{
+
+    max-width: 15px;
+
+}
+
+#adminmenu div.wp-menu-image img{
+
+    height: 20px;
+
+}
+
+a#v-pills-secondsection-tab:focus {
+
+    box-shadow: 0 0 0 1px #9e7626, 0 0 2px 1px rgb(158 118 38);
+
+    outline: 1px solid transparent;
+
+}
+
+.btn-info {
+
+    color: #fff!important;
+
+    background-color: var(--primaryColor)!important;
+
+    border-color: var(--primaryColor)!important;
+
+    width: 97px;
+
+    padding: .25rem .75rem;
+
+    margin-top:-3px;
+
+}
+.btn-img{
+    margin-top: 0!important;
+    margin-left:10px
+}
+.btn-info:hover {
+
+    color: var(--primaryColor) !important;
+
+    background-color: var(--secondaryColor)!important;
+
+    border-color: var(--primaryColor)!important;
+
+}
+
+
+
+.accordion-button{
+
+    background-color: var(--secondaryColor);
+
+    color: #fff;
+
+}
+
+
+
+.accordion-button:not(.collapsed) {
+
+    color: #fff;
+
+    background-color: #212529;
+
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+
+}
+
+
+
+.accordion-button:focus{
+
+    border: none;
+
+    border-color: transparent;
+
+    box-shadow: none;
+
+}
+
+
+
+.accordion-body {
+
+    padding:1rem 0rem;
+
+}
+
+.services.label{
+
+    margin:20px 0 -15px;
+
+    padding:10px 20px;
+
+}
+
+.services{
+
+    background: rgb(239 76 35 / 50%);
+
+    padding:20px;
+
+    margin:20px 0;
+
+    border-radius:5px;
+
+}
+
+.albargasy_favicon_img{
+
+    width: 100px!important;
+
+}
+.albargasy-color{
+    width: 40px;
+    height: 40px;
+    padding:0.375rem 0.375rem;
+}
+.categorychecklist{
+	padding-right:5px!important;
+}
